@@ -1,0 +1,57 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 忽略常见的大文件格式（可根据需要添加）
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar
+*.bz2
+*.gz
+*.iso
+*.img
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.psd
+*.ai
+*.eps
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# 注意：.gitignore 不支持直接按文件大小过滤
+# 要忽略 500MB 以上的文件，需要使用 gitattributes 和 Git LFS，或者使用 pre-commit 钩子
+# 下面提供一个可选的解决方案说明：
